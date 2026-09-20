@@ -23,10 +23,16 @@ Run `Build_Release.bat` with the .NET 8 SDK installed. A successful publish prod
 
 `Release\MtGBgXboxBonusContentConverter.exe`
 
-The build script prints the EXE size and SHA-256.
-
 ## Status
 
 The core DLC conversion, both Browse dialogs, automatic Digiex acquisition, user-supplied archive acquisition, Glacial Vale selector artwork, and the late arena-registry compatibility fix have been runtime-tested on Windows.
 
-This is an unofficial project and is not affiliated with Wizards of the Coast, Atari, Microsoft, or Digiex. No game or DLC files are bundled with the converter.
+## License
+
+The converter's original source code is released under the [MIT License](LICENSE).
+
+This license applies to the converter source code, not to *Magic: The Gathering – Battlegrounds*, the original Xbox DLC, or other third-party material. No game or DLC files are bundled with the converter.
+
+## Unofficial project
+
+This is an unofficial community project and is not affiliated with or endorsed by Wizards of the Coast, Atari, Microsoft, Secret Level, or Digiex.
