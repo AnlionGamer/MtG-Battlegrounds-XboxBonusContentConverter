@@ -1,0 +1,31 @@
+{
+  "input_sha256": "7e8927ace957f8bf77bfc40fbe097bbdfa50a470a353bac17ca5c812df666eb2",
+  "output_sha256": "85e3f34184bcdfbf3529ddbb82bf1ee9859f487e6266a894cfdb49afb6396e6d",
+  "size": 2269184,
+  "operations": [
+    {
+      "offset": 512,
+      "offset_hex": "0x200",
+      "expect_hex": "f0ca",
+      "write_hex": "0ccb"
+    },
+    {
+      "offset": 660178,
+      "offset_hex": "0xa12d2",
+      "expect_hex": "f64328100f85bf050000",
+      "write_hex": "e919c80b009090909090"
+    },
+    {
+      "offset": 1432304,
+      "offset_hex": "0x15daf0",
+      "expect_hex": "00000000",
+      "write_hex": "f683b002"
+    },
+    {
+      "offset": 1432310,
+      "offset_hex": "0x15daf6",
+      "expect_hex": "00000000000000000000000000000000000000000000",
+      "write_hex": "010f859e3df4fff64328100f85943df4ffe9d037f4ff"
+    }
+  ]
+}

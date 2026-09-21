@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <AssemblyName>MtGBgXboxBonusContentConverter</AssemblyName>
+    <RootNamespace>MtGBattlegroundsDlcConverter</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\MtGBgXboxBonusContentConverter.ico</ApplicationIcon>
+    <AssemblyTitle>MTG Battlegrounds – OG Xbox Bonus Content Converter for Windows</AssemblyTitle>
+    <Product>MTG Battlegrounds – OG Xbox Bonus Content Converter for Windows</Product>
+    <Description>Unofficial converter for using the original Xbox bonus content with the Windows PC v1.4 release of Magic: The Gathering - Battlegrounds.</Description>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.50.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Manifests\converter_manifest.json"
+                      LogicalName="MtGBattlegroundsDlcConverter.Manifests.converter_manifest.json" />
+    <EmbeddedResource Include="Manifests\engine_dll_patch.json"
+                      LogicalName="MtGBattlegroundsDlcConverter.Manifests.engine_dll_patch.json" />
+  </ItemGroup>
+</Project>

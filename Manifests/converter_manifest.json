@@ -1,0 +1,990 @@
+{
+  "schema": 1,
+  "project": "MTG Battlegrounds – OG Xbox Bonus Content Converter for Windows",
+  "reference_output_count": 48,
+  "direct_copy_count": 14,
+  "generated_count": 34,
+  "digiex_url": "https://download.digiex.net/Consoles/Xbox/DLC/DLCInstallers/MtG%20Battlegrounds%20DLC%20Installer.rar",
+  "xbox_inputs": [
+    {
+      "path": "content/$c/4947000e00000002/Animations/Expansion1Creatures.ukx",
+      "size": 1992957,
+      "sha256": "e55f5d2588b11c3d27ba565a5beaf74dfb230fe4fa665b3901db80878d21c1aa"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.det",
+      "size": 2470,
+      "sha256": "67ded3f5f9f13a2651cee2657749ed0728e91974796ef9ee96e2c26c502c9864"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.est",
+      "size": 2378,
+      "sha256": "69d18c49ed8fcfa2c716044d506e5b2e9e5520a82595f25f1069aff856710218"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.frt",
+      "size": 2448,
+      "sha256": "d506d147ccc110f308a810f3e816a0e3c4644a01861add4a4246b125a94b9689"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.ini",
+      "size": 3867,
+      "sha256": "c06e902fa9f0c1c3f7aa63772651daa74c2d7be65a5aa287bcc13ab7473776b2"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.int",
+      "size": 2270,
+      "sha256": "1a9ed39505de962ea733b2de64e57578d3fda6fb28b9b46db74d1fa6cc5c62f1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.itt",
+      "size": 2549,
+      "sha256": "279d419a3abc320032607b5e5bb4e8b7f154688ff20c648532ace1484e9ff83e"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1.u",
+      "size": 122490,
+      "sha256": "2016b4afb78b56c96968df7282a3c357851db270b89df9ff36f88c045ea503cd"
+    },
+    {
+      "path": "content/$c/4947000e00000002/MagicExpansionPack1Effects.int",
+      "size": 6461,
+      "sha256": "bf5199141d6f38a38baee9c9bbecef58975bca815ab42e9d999668f163c9a7bc"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Maps/MajorArenaBonus1.unr",
+      "size": 429552,
+      "sha256": "94cb2efe7f2c60b59f13500dfc52e3bb28b0cf9c9c5811b156688ae0f4f3e918"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAkromaX.uax",
+      "size": 550,
+      "sha256": "2de471b6ce6de0ab420aeb4dd94b5f9b5914c30e4f719042d17053badc0b8331"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAkromaX.xwb",
+      "size": 318976,
+      "sha256": "4b4256a138476d5aed478bfff05c630944ed269bf86a3efde981e35070535b34"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAlberonX.uax",
+      "size": 551,
+      "sha256": "1a664c4ab54e4f0c75f94c735a16a4435d77e25cf38cf681ec9fc0a23ec7ccb3"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAlberonX.xwb",
+      "size": 292352,
+      "sha256": "5a32220b3c11400670108a600b4c437fae975f5e277760fb022b07d493fddf72"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAngusX.uax",
+      "size": 549,
+      "sha256": "aa8d4b0c61b685fc698918f6bf6dd8589896c9f083418f3d34cdd3b8ed1e9742"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsAngusX.xwb",
+      "size": 301056,
+      "sha256": "2d43c11245138472c002b21c0d452e4a18dc7bfe1f164b023de9757f69afd92d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsArcanisX.uax",
+      "size": 551,
+      "sha256": "d53674496f371801ac3fa7208866bf29b700895f978de51e6d38c68033cc14bd"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsArcanisX.xwb",
+      "size": 420864,
+      "sha256": "e978cf98300470f2ab0a944e8365c133d82672480112c7d1bb3678e3847a31ae"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsEntorinX.uax",
+      "size": 551,
+      "sha256": "7b70685db14b5f830ddbd87566319c20a3522527654e3c09bef22b3fbaa5469f"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsEntorinX.xwb",
+      "size": 291840,
+      "sha256": "59139f6b85d4338bc6b97e7d0697fd4320632c62f3811427aa5dd286b67ffcf1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsEvalisaX.uax",
+      "size": 551,
+      "sha256": "9919afac75070c959657ff1a6cf9f5ee43329f736b2e3c69178467d11a61b1d1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsEvalisaX.xwb",
+      "size": 330240,
+      "sha256": "80a9d7b1338f3c64bf2992215a90c8091ea0edadf113d6fcdd472fe4fcf6e2cd"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsIhsanX.uax",
+      "size": 549,
+      "sha256": "92470cc7e85110812d135aa4cea96c7e436575b6964e2a0c9b40798792cf57e5"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsIhsanX.xwb",
+      "size": 566784,
+      "sha256": "893c158b4cd154f7045a050d15a95694143cac787d0fb7495d16d5357d888e88"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsJoeX.uax",
+      "size": 547,
+      "sha256": "8d20978197bca440a79fbaf9ccb17becf22454d686a883112795cadad34476d4"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsJoeX.xwb",
+      "size": 320512,
+      "sha256": "f16854e3f3d59744c41ccabee62a0f78d080bf97b44690024f0d6169244a33fc"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsKerocX.uax",
+      "size": 549,
+      "sha256": "de8225d1e0683fba3e9e7f08ab0ef4b9d9653223e613c6e3f6784ff1e296299d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsKerocX.xwb",
+      "size": 292352,
+      "sha256": "72eecc4b3ea2f2dc838777ec4418daea45904893c14785b9b94f8e5d243aa6c5"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMaraxusX.uax",
+      "size": 551,
+      "sha256": "bedc136bde7363913f2f0c0c9da9d54b7504c65ae9f6b0fed7b26305749db0ed"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMaraxusX.xwb",
+      "size": 369152,
+      "sha256": "0557ddb99e25349da1eae62fb1bb9f849955789750b5c0d9c7312aadd7409200"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMidiaX.uax",
+      "size": 549,
+      "sha256": "5c31d83bde1a6d7bff5ca023834b8d5991de41c72143edadab2d7001763ce36a"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMidiaX.xwb",
+      "size": 300544,
+      "sha256": "254ec3e05ed0359bedf557f8bfb63b35c71ecf733310a21ed4943a09e38a78e9"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMishraX.uax",
+      "size": 550,
+      "sha256": "f58d6324e6977f762f1fc11f5363cc1c89ab41a9652d9f60915c9479574dac25"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMishraX.xwb",
+      "size": 543744,
+      "sha256": "2631387f446c4e1317612708faf62d6fa56f2ead6eaaa827bc0c07ec0374d2c9"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMultaniX.uax",
+      "size": 551,
+      "sha256": "366e5834870e33bb1cd28c8668ab7a1b885e7cb4b5aaa3930b8dbb3788a2577c"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsMultaniX.xwb",
+      "size": 474624,
+      "sha256": "bb8c714fe2e82633ed22782673395b190c2991c96311002f6487f4c3e43a00b3"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsTeneraX.uax",
+      "size": 550,
+      "sha256": "8e00b2ae0d4d6390a5cfe0960a27088545ddf4a5d43f7a6bff7440b08cd0db8d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsTeneraX.xwb",
+      "size": 272384,
+      "sha256": "6ac31f3c94085f9e920d13c7dae10f1c0d5ecacedd0c33d045ac407e657821f8"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsTsaboX.uax",
+      "size": 549,
+      "sha256": "0a18e2ba8bdbcc21baf1c3d14b0ba33823f62614706a4bc4dad4070c11fca2c1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsTsaboX.xwb",
+      "size": 520192,
+      "sha256": "3a86eba77847455a4fc58d56a90c75adec4508455e948838291b20659fd42416"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsVilantiX.uax",
+      "size": 551,
+      "sha256": "f282aee452b6d49662dcf48ebe873ae25455445ec081e32c703866c1dba5f86b"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsVilantiX.xwb",
+      "size": 283136,
+      "sha256": "3a4102531f7cba9ad2ebb08589a57f1a14260b2e252b38a0a223b5fc7a3ac0d1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsVolitaX.uax",
+      "size": 550,
+      "sha256": "990f63587e23c1da98f8dc47998cf35ad2fa1ece588cf3298ad2916af2f6dc95"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsVolitaX.xwb",
+      "size": 300544,
+      "sha256": "a2ad775583bd77731b11c4856ea82fc05ac46d20a4e3b6555da2aa7075e73019"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsZayelX.uax",
+      "size": 549,
+      "sha256": "5fd81ac8800dbf1b48b8df6700ca4c567779c628e8c59c0cfee76da0b3cf5318"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/IncantsZayelX.xwb",
+      "size": 330240,
+      "sha256": "f651f905199fa8bf8a0f3ff0fff2c1c004005ef671c062fc88507f296ec2ff7d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/MagicSoundsX.uax",
+      "size": 2701,
+      "sha256": "b0bf0abf95ae6c03108f630606229a6cd6c83e9c2ccdaf7d8b05b0747704365b"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/MagicSoundsX.xwb",
+      "size": 3095040,
+      "sha256": "cb658a4cc1cd07eadd00da3866fb7b4cf6c95d671a3cdc94f22391bfe04d1ef0"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb",
+      "size": 16436,
+      "sha256": "33674696e1425626d351b7d6e3c6af2160e7800494b558167b019b628208eed1"
+    },
+    {
+      "path": "content/$c/4947000e00000002/StaticMeshes/Bonus_Sector.usx",
+      "size": 1729156,
+      "sha256": "0801ea4c481c4e7fc7b09984d0b5bf24509e147c0485b1fc7cb1bc8784e06f19"
+    },
+    {
+      "path": "content/$c/4947000e00000002/StaticMeshes/ExpansionFX.usx",
+      "size": 147582,
+      "sha256": "f502f0f77a32fdcb9b362c653394acc5d5f6d29ded7b5b2922d039a9c757588d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/ExpansionFXTex.utx",
+      "size": 258650,
+      "sha256": "f18e2608ecf217a725d72055f75cd493c030d3d39237737d6235e25d757d70f8"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/ExpansionLandIcons.utx",
+      "size": 188770,
+      "sha256": "8f2184f7317c8207132599e85951889fa920105f64badab7cbf3e5bb45550d6d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/ExpansionSpellIcons.utx",
+      "size": 255108,
+      "sha256": "455fe77d5243e7729252f9a7df3508d7066177fb4a8c0258a6f5ad398aed26ab"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/LivingHiveOffspringTexPackage.utx",
+      "size": 351215,
+      "sha256": "0c41e9f66eacba4ec98ae6c61a9b9ec15502546cb1152bfc5739a590a57817e8"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/LivingHiveTexPackage.utx",
+      "size": 228704,
+      "sha256": "afadf065aabe7f232b5a8635b467eed93d1a7806e6f16942ff7f93406d9a01f7"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/ReiverDemonTexPackage.utx",
+      "size": 317548,
+      "sha256": "8f893e3d1cce74930228cc91394cc249d0bd538c6c12d55683ce78b6768ff94d"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/SerraAvatarTexPackage.utx",
+      "size": 247537,
+      "sha256": "5cfbe7b9039bbeb5e39368bbe922b58da256289c27cbee00c5c56bde353683da"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/Snowy.utx",
+      "size": 2997034,
+      "sha256": "f06b6443f454c24244727ca7736d8952806d2e0b01b1669ef2f20e4c4df2e389"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/TidalKrakenTexPackage.utx",
+      "size": 468257,
+      "sha256": "34ea78fd24891442f3b92862a5f965d24b1143e8b7d36871aab79213c63c8971"
+    },
+    {
+      "path": "content/$c/4947000e00000002/Textures/tephradermTexPackage.utx",
+      "size": 177948,
+      "sha256": "2a5e9111b6e61bd1333d9a769f663208d88b07fb4c74941884852f44b2ffc004"
+    },
+    {
+      "path": "content/$u/system/engine.u",
+      "size": 894904,
+      "sha256": "ca944be629a86f91d54366356a077eb978fddbc1f7aec9bdaae0d70901191bbd"
+    }
+  ],
+  "pc_v1_4_inputs": [
+    {
+      "path": "SYSTEM/Engine.dll",
+      "size": 2269184,
+      "sha256": "7e8927ace957f8bf77bfc40fbe097bbdfa50a470a353bac17ca5c812df666eb2",
+      "role": "engine_base"
+    },
+    {
+      "path": "SYSTEM/Engine.u",
+      "size": 1554811,
+      "sha256": "842aff118d956c881293ea85d89b511595e1f5a033448873ca32b12cd0494670",
+      "role": "engine_base"
+    },
+    {
+      "path": "Sounds/IncantsAkroma.uax",
+      "size": 10874538,
+      "sha256": "e2f811e991f9a613762528dfa94e1cce491d09a3bff4a6ecc711f960db3faf00",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsAlberon.uax",
+      "size": 9909116,
+      "sha256": "e014413220b3e32767a9f30e36b8de09e17400486724cd5aa9b4567ddc8b1f4f",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsAngus.uax",
+      "size": 9828731,
+      "sha256": "085c4f2d928dc2b5b4d06b53e5e09a71682a11ce5a42d8f443979938208b4d94",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsArcanis.uax",
+      "size": 12183248,
+      "sha256": "a53303751fea176d114296d9ac7804c87d95a5b82b92ef42e2067fd89a3de003",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsEntorin.uax",
+      "size": 9705164,
+      "sha256": "2e2df465e03db6912b618d004896a135b1928616fda4b583362fa0008a25cdbb",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsEvalisa.uax",
+      "size": 10194974,
+      "sha256": "a0e196e2bca4ade5deb83b08f8f5f962600a2cf65beea1f043efe65970f897a5",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsIhsan.uax",
+      "size": 19699029,
+      "sha256": "26f541a720ca73ceed77fa9204eaa576e6020dd0813df0d488a88930aef19756",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsJoe.uax",
+      "size": 10796869,
+      "sha256": "9cd2ef6c8ab5a4b15483a5c29b95182abcffb4c73fa42c6d2393036693e6a9a4",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsKeroc.uax",
+      "size": 10459825,
+      "sha256": "8099c062c02a3d22c0ec97dfa703719cf1419d28a3ead85be3835998ffec087c",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsMaraxus.uax",
+      "size": 11531528,
+      "sha256": "d039384e626604a73c76589252c8e687f09008346181a506c985fb3f186f2476",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsMidia.uax",
+      "size": 10182650,
+      "sha256": "01f63c6e94caa9e81ca1a8f3e5a0d3102721bccfd37b1d63366fcc0f76e10058",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsMishra.uax",
+      "size": 17928898,
+      "sha256": "cd5dd30ec4d5de9801995f26644c2fd9551f3e61255b413dd9d8b15cfae5a205",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsMultani.uax",
+      "size": 17008535,
+      "sha256": "3c684446373e214cbe4d16b437336378ff6371aab2d4076ad384066ef8ec9514",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsTenera.uax",
+      "size": 9428318,
+      "sha256": "5bad5ec6742513421bfdaaf675ac8c13489595b1019a906947bbca8f68d8f785",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsTsabo.uax",
+      "size": 18041399,
+      "sha256": "d91e807bcde98c55ad68b29bdb13aa9dd16294bc5bb506fa6000ccee7e78f961",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsVilanti.uax",
+      "size": 9539702,
+      "sha256": "8ab293af0a92ef7bb1c82069b14322c6016fdadaae827e09337bf08538020428",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsVolita.uax",
+      "size": 10257819,
+      "sha256": "bbc1db8e8e03f95ebcafb786f9952af9423293c22891602b70e6ae7ceb5800c2",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/IncantsZayel.uax",
+      "size": 9979108,
+      "sha256": "39cf90038cf5340a554fa5a2bc6a076bc68998979b98e0c71df32416d9e268ca",
+      "role": "audio_base"
+    },
+    {
+      "path": "Sounds/MagicSounds.uax",
+      "size": 74797851,
+      "sha256": "d039c05e5573f7c4edfd43ad297f872c2a8ef8afb9bd86f6220b4384614c4166",
+      "role": "audio_base"
+    }
+  ],
+  "transforms": [
+    {
+      "output": "Animations/Expansion1Creatures.ukx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Animations/Expansion1Creatures.ukx"
+    },
+    {
+      "output": "Maps/MajorArenaBonus1.mbg",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Maps/MajorArenaBonus1.unr"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.ini",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.ini"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1Effects.int",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1Effects.int"
+    },
+    {
+      "output": "StaticMeshes/Bonus_Sector.usx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/StaticMeshes/Bonus_Sector.usx"
+    },
+    {
+      "output": "StaticMeshes/ExpansionFX.usx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/StaticMeshes/ExpansionFX.usx"
+    },
+    {
+      "output": "Textures/ExpansionFXTex.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/ExpansionFXTex.utx"
+    },
+    {
+      "output": "Textures/LivingHiveOffspringTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/LivingHiveOffspringTexPackage.utx"
+    },
+    {
+      "output": "Textures/LivingHiveTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/LivingHiveTexPackage.utx"
+    },
+    {
+      "output": "Textures/ReiverDemonTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/ReiverDemonTexPackage.utx"
+    },
+    {
+      "output": "Textures/SerraAvatarTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/SerraAvatarTexPackage.utx"
+    },
+    {
+      "output": "Textures/Snowy.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/Snowy.utx"
+    },
+    {
+      "output": "Textures/TidalKrakenTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/TidalKrakenTexPackage.utx"
+    },
+    {
+      "output": "Textures/tephradermTexPackage.utx",
+      "mode": "copy_or_rename",
+      "xbox_source": "content/$c/4947000e00000002/Textures/tephradermTexPackage.utx"
+    },
+    {
+      "output": "Sounds/IncantsAkroma.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsAkroma.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsAkromaX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsAkromaX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsAlberon.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsAlberon.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsAlberonX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsAlberonX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsAngus.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsAngus.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsAngusX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsAngusX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsArcanis.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsArcanis.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsArcanisX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsArcanisX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsEntorin.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsEntorin.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsEntorinX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsEntorinX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsEvalisa.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsEvalisa.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsEvalisaX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsEvalisaX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsIhsan.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsIhsan.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsIhsanX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsIhsanX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsJoe.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsJoe.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsJoeX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsJoeX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsKeroc.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsKeroc.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsKerocX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsKerocX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsMaraxus.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsMaraxus.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsMaraxusX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsMaraxusX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsMidia.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsMidia.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsMidiaX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsMidiaX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsMishra.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsMishra.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsMishraX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsMishraX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsMultani.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsMultani.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsMultaniX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsMultaniX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsTenera.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsTenera.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsTeneraX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsTeneraX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsTsabo.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsTsabo.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsTsaboX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsTsaboX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsVilanti.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsVilanti.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsVilantiX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsVilantiX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsVolita.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsVolita.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsVolitaX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsVolitaX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/IncantsZayel.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/IncantsZayel.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/IncantsZayelX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/IncantsZayelX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "Sounds/MagicSounds.uax",
+      "mode": "merge_audio",
+      "pc_source": "Sounds/MagicSounds.uax",
+      "xbox_package": "content/$c/4947000e00000002/Sounds/MagicSoundsX.uax",
+      "xbox_wavebank": "content/$c/4947000e00000002/Sounds/MagicSoundsX.xwb",
+      "xsb": "content/$c/4947000e00000002/Sounds/SoundBankMEP1.xsb"
+    },
+    {
+      "output": "SYSTEM/Engine.u",
+      "mode": "patch_engine_package",
+      "pc_source": "SYSTEM/Engine.u",
+      "xbox_reference": "content/$u/system/engine.u"
+    },
+    {
+      "output": "SYSTEM/Engine.dll",
+      "mode": "patch_engine_native",
+      "pc_source": "SYSTEM/Engine.dll"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.det",
+      "mode": "relocate_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.det"
+    },
+    {
+      "output": "SYSTEM/ZZ_MtGBgBonusArena.det",
+      "mode": "late_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.det"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.est",
+      "mode": "relocate_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.est"
+    },
+    {
+      "output": "SYSTEM/ZZ_MtGBgBonusArena.est",
+      "mode": "late_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.est"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.frt",
+      "mode": "relocate_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.frt"
+    },
+    {
+      "output": "SYSTEM/ZZ_MtGBgBonusArena.frt",
+      "mode": "late_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.frt"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.int",
+      "mode": "relocate_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.int"
+    },
+    {
+      "output": "SYSTEM/ZZ_MtGBgBonusArena.int",
+      "mode": "late_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.int"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.itt",
+      "mode": "relocate_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.itt"
+    },
+    {
+      "output": "SYSTEM/ZZ_MtGBgBonusArena.itt",
+      "mode": "late_arena_registration",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.itt"
+    },
+    {
+      "output": "SYSTEM/MagicExpansionPack1.u",
+      "mode": "adapt_expansion_package",
+      "xbox_source": "content/$c/4947000e00000002/MagicExpansionPack1.u"
+    },
+    {
+      "output": "Textures/ExpansionLandIcons.utx",
+      "mode": "resize_bc3_texture_package",
+      "xbox_source": "content/$c/4947000e00000002/Textures/ExpansionLandIcons.utx"
+    },
+    {
+      "output": "Textures/ExpansionSpellIcons.utx",
+      "mode": "resize_bc3_texture_package",
+      "xbox_source": "content/$c/4947000e00000002/Textures/ExpansionSpellIcons.utx"
+    }
+  ],
+  "reference_outputs": [
+    {
+      "path": "Animations/Expansion1Creatures.ukx",
+      "size": 1992957,
+      "sha256": "e55f5d2588b11c3d27ba565a5beaf74dfb230fe4fa665b3901db80878d21c1aa"
+    },
+    {
+      "path": "Maps/MajorArenaBonus1.mbg",
+      "size": 429552,
+      "sha256": "94cb2efe7f2c60b59f13500dfc52e3bb28b0cf9c9c5811b156688ae0f4f3e918"
+    },
+    {
+      "path": "Sounds/IncantsAkroma.uax",
+      "size": 11609848,
+      "sha256": "edeb724e53c7878e776870f6e4c8f76e4d29177cdbe3e1f5618b3d41facc15c8"
+    },
+    {
+      "path": "Sounds/IncantsAlberon.uax",
+      "size": 10559026,
+      "sha256": "55320b87d087d40f52de3c1fd0284ab20640e5971e02a9a2ca0dc5668a117efa"
+    },
+    {
+      "path": "Sounds/IncantsAngus.uax",
+      "size": 10532735,
+      "sha256": "cae9fc50fa94e5950bd5f0dd542dac71de4c18d44dc10dded61d2c845eba01c2"
+    },
+    {
+      "path": "Sounds/IncantsArcanis.uax",
+      "size": 13155732,
+      "sha256": "598c0c4ac0fc69cf6c2f9f966bdcda50269062a5058b9a9d671906558152709e"
+    },
+    {
+      "path": "Sounds/IncantsEntorin.uax",
+      "size": 10378262,
+      "sha256": "0a3dc8c357921d04cb632a7e45693bfdfbf743cae0e34af6cf18a36d8f1a9043"
+    },
+    {
+      "path": "Sounds/IncantsEvalisa.uax",
+      "size": 10985286,
+      "sha256": "a00723f1c085a566f0420bf75d66f56633f39e5611e75229c8ac1d5229f3afb4"
+    },
+    {
+      "path": "Sounds/IncantsIhsan.uax",
+      "size": 21010287,
+      "sha256": "112441f1a899ff8d208a5541f2f67a3ca9eed8d23a796037f7c3145fa5d75070"
+    },
+    {
+      "path": "Sounds/IncantsJoe.uax",
+      "size": 11507741,
+      "sha256": "29f75a6d732f4a5bae6c1ec25871c79156552e080075d753bcbbf82769816fd6"
+    },
+    {
+      "path": "Sounds/IncantsKeroc.uax",
+      "size": 11101721,
+      "sha256": "b3f937f2c1c21ac9ee5bc9fad191e760bf4b2a199f63981e7624a1ccd31f115e"
+    },
+    {
+      "path": "Sounds/IncantsMaraxus.uax",
+      "size": 12353598,
+      "sha256": "522f0bc5c2b0622644702175a31973829f40193e187c30eec74842e340e39bf4"
+    },
+    {
+      "path": "Sounds/IncantsMidia.uax",
+      "size": 10892294,
+      "sha256": "ac2668aa49ec0263a3f5d8e7f774a986cb273da91d57de3109db7f8c320ae1c6"
+    },
+    {
+      "path": "Sounds/IncantsMishra.uax",
+      "size": 19174750,
+      "sha256": "10b544cd376fd0370d212105f019d8a6d07b5a96308ed8f730b48da41078ad32"
+    },
+    {
+      "path": "Sounds/IncantsMultani.uax",
+      "size": 18094149,
+      "sha256": "106199f4aa4bce99e4c0ea68b9bb79d5a84fe9ee161a2bc88ee4033ed0d4edbe"
+    },
+    {
+      "path": "Sounds/IncantsTenera.uax",
+      "size": 10049804,
+      "sha256": "78c7a4a5a9cf6b3d362c1da4d492ee6efe70cae3afa7e2014110fb049b9abc9a"
+    },
+    {
+      "path": "Sounds/IncantsTsabo.uax",
+      "size": 19231337,
+      "sha256": "1f3671a00c6f0c6083e032a7bfab794caedd3b4bfca21ace729c10ac8d0ef32c"
+    },
+    {
+      "path": "Sounds/IncantsVilanti.uax",
+      "size": 10185760,
+      "sha256": "1927addb36011cee849c65ba283e5cafbf505922369f7484ea461fd724f7cc4e"
+    },
+    {
+      "path": "Sounds/IncantsVolita.uax",
+      "size": 10967463,
+      "sha256": "ccfdda19bd10b388a43a326b8d9e984a5bc07aa7d7fb6b580c088852ff90e4c2"
+    },
+    {
+      "path": "Sounds/IncantsZayel.uax",
+      "size": 10769420,
+      "sha256": "93649d61da09dbd55a92089d3575eaa204b0ff34d208031250bc45335d4d17a7"
+    },
+    {
+      "path": "Sounds/MagicSounds.uax",
+      "size": 85916856,
+      "sha256": "d8d0ebd95a492e2b86c12e2b9ca430db803af12c2d27ce925ad1db379bc20670"
+    },
+    {
+      "path": "StaticMeshes/Bonus_Sector.usx",
+      "size": 1729156,
+      "sha256": "0801ea4c481c4e7fc7b09984d0b5bf24509e147c0485b1fc7cb1bc8784e06f19"
+    },
+    {
+      "path": "StaticMeshes/ExpansionFX.usx",
+      "size": 147582,
+      "sha256": "f502f0f77a32fdcb9b362c653394acc5d5f6d29ded7b5b2922d039a9c757588d"
+    },
+    {
+      "path": "SYSTEM/Engine.dll",
+      "size": 2269184,
+      "sha256": "85e3f34184bcdfbf3529ddbb82bf1ee9859f487e6266a894cfdb49afb6396e6d"
+    },
+    {
+      "path": "SYSTEM/Engine.u",
+      "size": 1554858,
+      "sha256": "33c1c5b19fa90697961dfe03cd41bd8aa14ffbae389df2dd6054896294f5ab49"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.det",
+      "size": 2275,
+      "sha256": "db09f00fd2e8158fb3be5e63fd8019a607f7209b11880369f48f93fa2b305d99"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.est",
+      "size": 2183,
+      "sha256": "9da809847dae6c42b35f2b89e564c9739a487f8e72aca3ac5157993ee18b895b"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.frt",
+      "size": 2253,
+      "sha256": "e1251e602d1228cac18a6845086d3255cc78aa4ea9fd9694a86cef017781a200"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.ini",
+      "size": 3867,
+      "sha256": "c06e902fa9f0c1c3f7aa63772651daa74c2d7be65a5aa287bcc13ab7473776b2"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.int",
+      "size": 2075,
+      "sha256": "eb2507578f70c615aa597d634fa78227a9c130c117ba24fa434298165b651fef"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.itt",
+      "size": 2354,
+      "sha256": "232bd36476415374d8fb5df21020f89d80c19af24866db2078465a8362c5963a"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1.u",
+      "size": 122771,
+      "sha256": "9c2422d7a1485add553b7c1d3f5dfea6816d84d32acfc0374f898b446981e7b1"
+    },
+    {
+      "path": "SYSTEM/MagicExpansionPack1Effects.int",
+      "size": 6461,
+      "sha256": "bf5199141d6f38a38baee9c9bbecef58975bca815ab42e9d999668f163c9a7bc"
+    },
+    {
+      "path": "SYSTEM/ZZ_MtGBgBonusArena.det",
+      "size": 205,
+      "sha256": "4272002d7fb238c17ed4195316f70c2304866b042d754e0e3dea8d841b157cc9"
+    },
+    {
+      "path": "SYSTEM/ZZ_MtGBgBonusArena.est",
+      "size": 205,
+      "sha256": "4272002d7fb238c17ed4195316f70c2304866b042d754e0e3dea8d841b157cc9"
+    },
+    {
+      "path": "SYSTEM/ZZ_MtGBgBonusArena.frt",
+      "size": 205,
+      "sha256": "4272002d7fb238c17ed4195316f70c2304866b042d754e0e3dea8d841b157cc9"
+    },
+    {
+      "path": "SYSTEM/ZZ_MtGBgBonusArena.int",
+      "size": 205,
+      "sha256": "4272002d7fb238c17ed4195316f70c2304866b042d754e0e3dea8d841b157cc9"
+    },
+    {
+      "path": "SYSTEM/ZZ_MtGBgBonusArena.itt",
+      "size": 205,
+      "sha256": "4272002d7fb238c17ed4195316f70c2304866b042d754e0e3dea8d841b157cc9"
+    },
+    {
+      "path": "Textures/ExpansionFXTex.utx",
+      "size": 258650,
+      "sha256": "f18e2608ecf217a725d72055f75cd493c030d3d39237737d6235e25d757d70f8"
+    },
+    {
+      "path": "Textures/ExpansionLandIcons.utx",
+      "size": 723988,
+      "sha256": "102b5481b28c702bf3a7875ac46983415904c214b2d56bafe4bf773bfab957aa"
+    },
+    {
+      "path": "Textures/ExpansionSpellIcons.utx",
+      "size": 976191,
+      "sha256": "8ecec3c303082971fae2c0d05df405d1f4b855088285f975513f195cb9a82e13"
+    },
+    {
+      "path": "Textures/LivingHiveOffspringTexPackage.utx",
+      "size": 351215,
+      "sha256": "0c41e9f66eacba4ec98ae6c61a9b9ec15502546cb1152bfc5739a590a57817e8"
+    },
+    {
+      "path": "Textures/LivingHiveTexPackage.utx",
+      "size": 228704,
+      "sha256": "afadf065aabe7f232b5a8635b467eed93d1a7806e6f16942ff7f93406d9a01f7"
+    },
+    {
+      "path": "Textures/ReiverDemonTexPackage.utx",
+      "size": 317548,
+      "sha256": "8f893e3d1cce74930228cc91394cc249d0bd538c6c12d55683ce78b6768ff94d"
+    },
+    {
+      "path": "Textures/SerraAvatarTexPackage.utx",
+      "size": 247537,
+      "sha256": "5cfbe7b9039bbeb5e39368bbe922b58da256289c27cbee00c5c56bde353683da"
+    },
+    {
+      "path": "Textures/Snowy.utx",
+      "size": 2997034,
+      "sha256": "f06b6443f454c24244727ca7736d8952806d2e0b01b1669ef2f20e4c4df2e389"
+    },
+    {
+      "path": "Textures/tephradermTexPackage.utx",
+      "size": 177948,
+      "sha256": "2a5e9111b6e61bd1333d9a769f663208d88b07fb4c74941884852f44b2ffc004"
+    },
+    {
+      "path": "Textures/TidalKrakenTexPackage.utx",
+      "size": 468257,
+      "sha256": "34ea78fd24891442f3b92862a5f965d24b1143e8b7d36871aab79213c63c8971"
+    }
+  ]
+}
